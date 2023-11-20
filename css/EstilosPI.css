@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+
+}
+
+body {
+  margin: 0 8.33%;
+  color: #15163D;
+}
+
+/* HEADER */
+header {
+  height: 100px;
+  margin-top: 42px;
+
+}
+.circuloAzul {
+  background: radial-gradient(
+    circle,
+    rgba(89, 116, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+  height: 1079px;
+  width: 1079px;
+  border-radius: 1000px;
+  position: absolute;
+  top: -524px;
+  left: -521px;
+  z-index: -100;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navUl {
+  width: 25%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* HEADER */
+/* MAIN */
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8%;
+}
+
+.cuadro1 {
+  width: 478px;
+  height: 362px;
+}
+
+.cuadro1 h1, h2, h3 {
+  font-size: 58px;
+  font-weight: bold;
+}
+.cuadro1 p {
+  margin-top: 10%;
+  font-size: 16pt;
+}
+.cuadro1 button {
+  background: #04146c;
+  color: #fff;
+  height: 48px;
+  width: 197.05px;
+  border-radius: 8px;
+  margin-top: 10%;
+}
+
+.cuadro1, .imagen1 {
+  padding: 1%;
+}
+
+.testimonios{
+  text-align: center;
+
+}
+
+.contenedorDeClientes{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.cliente1, .cliente2, .cliente3 {
+  background: #EFF2FF;
+  border-radius: 20px;
+  margin: 10px;
+  width: 355px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 5px 1px #565661;
+
+}
+.cliente1 img, .cliente2 img, .cliente3 img{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  object-fit: cover;
+  margin: auto;
+}
+.nombre {
+  font-weight: normal;
+  font-size: 18pt;
+  margin: auto;
+}
+
+.cliente1 p, .cliente2 p, .cliente3 p {
+  margin: auto 4%;
+}
+#section4 {
+  margin-top: 8%;
+}
+
+/* MAIN */
+/* FOOTER */
+
+footer {
+  color: #fff;
+  background-color: #15163D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  left: 0;
+}
+
+.partes {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5%;
+
+}
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.footer2 p {
+ margin-top: 30px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+footer p {
+  font-weight: lighter;
+  font-size: 16pt;
+}
+
+.partes1 {
+margin: auto;
+padding-bottom: 40px;
+}
+
+
+/* FOOTER */
