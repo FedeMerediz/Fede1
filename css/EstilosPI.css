@@ -183,5 +183,73 @@ margin: auto;
 padding-bottom: 40px;
 }
 
-
 /* FOOTER */
+/* PANTALLAS CHICAS*/
+
+@media (max-width:768px){
+  
+  .circuloAzul{
+    left: -140px;
+    top: -800px;
+  }
+
+  .movilLinks {
+    display: none;
+  }
+
+  .movilsSection1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    order: 1;
+    margin-left: 10%;
+
+  }
+
+  .movilImagen1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    order: 2;
+
+  }
+
+  .movilContenedorDeClientes {
+    display: flex;
+    flex-direction: column;
+
+  }
+  #section4{
+    display: none;
+  }
+
+.partes{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+  .cliente1, .cliente2, .cliente3 {
+    margin-left: 19%;
+  }
+  .footer1 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .footer2 {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    order: -1;
+  }
+  .partes1 {
+    height: 10%;
+  }
+}
+
+/* PANTALLAS CHICAS*/
